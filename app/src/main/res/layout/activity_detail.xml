@@ -33,7 +33,7 @@
                     app:srcCompat="@drawable/fast_1" />
 
                 <ImageView
-                    android:id="@+id/imageView8"
+                    android:id="@+id/detailsBackBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
@@ -95,7 +95,7 @@
                         android:layout_weight="0.33">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView90"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
@@ -112,25 +112,24 @@
                             android:text="- min"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView90"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
-                            app:layout_constraintStart_toEndOf="@+id/imageView9" />
+                            app:layout_constraintStart_toEndOf="@+id/imageView90" />
 
                         <TextView
-                            android:id="@+id/textView14"
+                            android:id="@+id/textView140"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:text="Delivery"
                             android:textColor="@color/black"
-                            app:layout_constraintEnd_toEndOf="@+id/textView13"
-                            app:layout_constraintStart_toStartOf="@+id/imageView9"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+                            app:layout_constraintStart_toStartOf="@+id/imageView90"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView90" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <View
-                        android:id="@+id/view3"
+                        android:id="@+id/view30"
                         android:layout_width="1dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
@@ -142,7 +141,7 @@
                         android:layout_weight="0.33">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView91"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="24dp"
@@ -159,21 +158,20 @@
                             android:text="0"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView91"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
-                            app:layout_constraintStart_toEndOf="@+id/imageView9" />
+                            app:layout_constraintStart_toEndOf="@+id/imageView91" />
 
                         <TextView
-                            android:id="@+id/textView14"
+                            android:id="@+id/textView141"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:text="Rating"
                             android:textColor="@color/black"
-                            app:layout_constraintEnd_toEndOf="@+id/textView13"
-                            app:layout_constraintStart_toStartOf="@+id/imageView9"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+                            app:layout_constraintStart_toStartOf="@+id/imageView91"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView91" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <View

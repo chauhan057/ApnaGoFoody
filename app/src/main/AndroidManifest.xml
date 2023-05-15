@@ -12,13 +12,13 @@
         android:theme="@style/Theme.ApnaGoFoody"
         tools:targetApi="31">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".IntroScreen.SplashScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupActivity"
+            android:name=".LoginAndSignup.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".LoginAndSignup.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.SettingActivity"

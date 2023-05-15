@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.vishal.apnagofoody.Domain.FoodDomain;
@@ -17,10 +18,11 @@ import com.vishal.apnagofoody.R;
 public class DetailActivity extends AppCompatActivity {
     private Button addToCartBtn;
     private TextView plusBtn,minusBtn,titleTxt,feeTxt,descriptionTxt,numberOrderTxt,startTxt,caloryTxt,timeTxt;
-    private ImageView picFood;
+    private ImageView picFood,detailsBackBtn;
     private FoodDomain object;
     private int numberOrder = 1;
     private ManagementCart managementCart;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,13 @@ public class DetailActivity extends AppCompatActivity {
 
         initView();
         getBundle();
+
+        detailsBackBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DetailActivity.this,MainActivity.class));
+            }
+        });
     }
 
     private void getBundle() {
@@ -81,5 +90,6 @@ public class DetailActivity extends AppCompatActivity {
         startTxt=findViewById(R.id.starTxt);
         caloryTxt=findViewById(R.id.CalTxt);
         timeTxt=findViewById(R.id.timeTxt);
+        detailsBackBtn=findViewById(R.id.detailsBackBtn);
     }
 }
